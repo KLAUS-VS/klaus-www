@@ -5,10 +5,9 @@ import VueRouter from 'vue-router';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import Login from './Login.vue';
 import Klaus from './Klaus.vue';
-import Exams from './Exams.vue';
-
+import Login from './Login.vue';
+import Search from './Search.vue';
 
 Vue.use(BootstrapVue);
 Vue.use(VueRouter);
@@ -22,8 +21,8 @@ const routes = [{
   component: Klaus,
   children:[{
     path: '/',
-    name: 'exams',
-    component: Exams,
+    name: 'search',
+    component: Search,
   }],
 }];
 
