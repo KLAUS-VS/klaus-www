@@ -8,7 +8,7 @@
   </md-input-container>
 
   <md-button class="md-icon-button md-raised md-primary">
-    <md-icon>folder</md-icon>
+    <md-icon>info</md-icon>
     <md-tooltip md-direction="top">My tooltip</md-tooltip>
   </md-button>
 

@@ -14,7 +14,7 @@
 
   <md-button id="loginbutton" class="md-raised md-warn" @click="login()">Login</md-button>
   <br>
-  <label id="footertext"> © 2017 VS DER HDM STUTTGART Ι <a>IMPRESSUM</a></label>
+  <label id="footertext"> © 2017 VS DER HDM STUTTGART Ι <a href="http://localhost:8080/#/Impressum">IMPRESSUM</a></label>
 </div>
 </template>
 
@@ -38,16 +38,12 @@ export default {
 }
 #logo {
   margin: 0 15% 0 15%;
-
   display: inline-block;
-
 }
 
 
 #input {
   margin: 0 15% 0 15%;
-
-
   margin-left: 30%;
   margin-right: 30%;
 }
@@ -57,6 +53,7 @@ export default {
   margin-right: 30%;
   background-color: #F39200;
 }
+
 
 #footertext {
   margin-left: 80%;
