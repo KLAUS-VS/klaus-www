@@ -1,5 +1,4 @@
 import Vue from 'vue';
-//import App from './App.vue';
 import BootstrapVue from 'bootstrap-vue';
 import VueMaterial from 'vue-material';
 import VueRouter from 'vue-router';
@@ -37,5 +36,4 @@ const router = new VueRouter({
 new Vue({
   router,
   el: '#app',
-  //render: h => h(Login),
 });
