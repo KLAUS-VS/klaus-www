@@ -2,7 +2,7 @@
   <div>
      <b-form-input size="lg" type="text" placeholder="HdM Kürzel"></b-form-input>
      <b-form-input size="lg" type="text" placeholder="Passwort"></b-form-input>
-<md-button class="md-raised">Default</md-button>
+<md-button class="md-raised" @click="login()">Default</md-button>
    </div>
 </template>
 

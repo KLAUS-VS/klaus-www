@@ -10,10 +10,15 @@ import 'vue-material/dist/vue-material.css';
 import Klaus from './Klaus.vue';
 import Login from './Login.vue';
 import Search from './Search.vue';
+import Navigation from './Navigation.vue';
+import Footer from './Footer.vue';
 
 Vue.use(BootstrapVue);
 Vue.use(VueMaterial);
 Vue.use(VueRouter);
+
+Vue.component('navigation', Navigation);
+Vue.component('footer-bar', Footer);
 
 const routes = [{
   path: '/',
