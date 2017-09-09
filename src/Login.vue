@@ -12,8 +12,9 @@
     </md-input-container>
   </div>
 
-  <md-button class="md-raised" @click="login()">Login</md-button>
-  <label> © 2017 VS DER HDM STUTTGART Ι IMPRESSUM</label>
+  <md-button id="loginbutton" class="md-raised md-warn" @click="login()">Login</md-button>
+  <br>
+  <label id="footertext"> © 2017 VS DER HDM STUTTGART Ι <a>IMPRESSUM</a></label>
 </div>
 </template>
 
@@ -33,14 +34,33 @@ export default {
 </script>
 
 <style>
+#login {
+}
 #logo {
+  margin: 0 15% 0 15%;
+
   display: inline-block;
 
 }
 
 
 #input {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 0 15% 0 15%;
+
+
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#loginbutton {
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #F39200;
+}
+
+#footertext {
+  margin-left: 80%;
+  margin-top: 10vh;
+
 }
 </style>
