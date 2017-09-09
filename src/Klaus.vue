@@ -1,7 +1,8 @@
 <template>
   <div>
-    <h1>Hallo</h1>
-    <router-view></router-view>
+    <navigation></navigation>
+    <router-view id="content"></router-view>
+    <footer-bar></footer-bar>
   </div>
 </template>
 
@@ -9,4 +10,7 @@
 </script>
 
 <style>
+#content{
+    margin: 0 15% 0 15%;
+}
 </style>

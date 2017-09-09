@@ -6,14 +6,18 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'vue-material/dist/vue-material.css';
 
-import Login from './Login.vue';
 import Klaus from './Klaus.vue';
-import Exams from './Exams.vue';
-
+import Login from './Login.vue';
+import Search from './Search.vue';
+import Navigation from './Navigation.vue';
+import Footer from './Footer.vue';
 
 Vue.use(BootstrapVue);
 Vue.use(VueMaterial);
 Vue.use(VueRouter);
+
+Vue.component('navigation', Navigation);
+Vue.component('footer-bar', Footer);
 
 const routes = [{
   path: '/',
@@ -24,8 +28,8 @@ const routes = [{
   component: Klaus,
   children:[{
     path: '/',
-    name: 'exams',
-    component: Exams,
+    name: 'search',
+    component: Search,
   }],
 }];
 
