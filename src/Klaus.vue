@@ -1,7 +1,7 @@
 <template>
   <div>
     <navigation></navigation>
-    <router-view id="content"></router-view>
+    <router-view></router-view>
     <footer-bar></footer-bar>
   </div>
 </template>
@@ -10,10 +10,6 @@
 </script>
 
 <style>
-#content{
-    margin: 0 15% 0 15%;
-}
-
 #loginbutton {
   margin-left: 30%;
   margin-right: 30%;

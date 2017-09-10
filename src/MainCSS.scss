@@ -1,0 +1,23 @@
+//Color
+$yellow: #FFCC00;
+$orange: #F39200;
+$turquoise: #00A19A;
+
+.title-container{
+  display:flex;
+  background: $yellow;
+  height: 145px;
+  width: 100%;
+  padding: 0 15% 0 15%;
+}
+
+.title{
+  align-self: center;
+  vertical-align: middle;
+  font-size: 34px;
+  margin: 0;
+}
+
+.content{
+  margin: 0 15% 0 15%;
+}

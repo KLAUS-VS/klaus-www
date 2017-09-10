@@ -2,9 +2,11 @@ import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 import VueMaterial from 'vue-material';
 import VueRouter from 'vue-router';
+
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'vue-material/dist/vue-material.css';
+import './MainCSS.scss';
 
 import Klaus from './Klaus.vue';
 import Login from './Login.vue';
