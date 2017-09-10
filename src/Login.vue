@@ -14,7 +14,9 @@
 
   <md-button id="loginbutton" class="md-raised md-warn" @click="login()">Login</md-button>
   <br>
-  <label id="footertext"> © 2017 VS DER HDM STUTTGART Ι <a href="http://localhost:8080/#/Impressum">IMPRESSUM</a></label>
+  <div id="login-footer">
+    <label id="footertext"> © 2017 VS DER HDM STUTTGART Ι <router-link :to="{ name: 'impressum' }">Impressum</router-link></label>
+</div>
 </div>
 </template>
 
@@ -57,10 +59,16 @@ export default {
   background-color: #F39200;
 }
 
+#login-footer{
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+  margin-top: 30vh;
+  width: 100%;
+}
 
 #footertext {
-  margin-left: 80%;
-  margin-top: 30vh;
-
+  padding: 0 15% 0 15%;
+  align-self: center;
 }
 </style>
