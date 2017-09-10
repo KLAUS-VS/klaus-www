@@ -4,9 +4,8 @@
     <img src="./assets/klaus_logo.png" id="logo"></img>
   </header>
   <b-nav>
-    <b-nav-item>fooo</b-nav-item>
     <b-nav-item>Klausurensuche</b-nav-item>
-    <b-nav-item>Upload</b-nav-item>
+    <b-nav-item to="Upload">Upload</b-nav-item>
   </b-nav>
 </div>
 </template>
