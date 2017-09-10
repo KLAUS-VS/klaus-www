@@ -5,7 +5,7 @@
   </header>
   <b-nav>
     <b-nav-item>Klausurensuche</b-nav-item>
-    <b-nav-item>Upload</b-nav-item>
+    <b-nav-item to="Upload">Upload</b-nav-item>
   </b-nav>
 </div>
 </template>

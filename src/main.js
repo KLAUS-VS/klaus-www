@@ -14,6 +14,7 @@ import Search from './Search.vue';
 import Navigation from './Navigation.vue';
 import Footer from './Footer.vue';
 import Impressum from './Impressum.vue';
+import Upload from './Upload.vue';
 
 Vue.use(BootstrapVue);
 Vue.use(VueMaterial);
@@ -29,7 +30,7 @@ Vue.component('footer-bar', Footer);
 })*/
 
 const routes = [{
-    path: '/',
+  path: '/',
     component: Login,
   },
   {
@@ -42,16 +43,18 @@ const routes = [{
     name: 'klaus',
     component: Klaus,
     children: [{
-        path: '/',
-        name: 'search',
-        component: Search,
-      },
-      {
-        path: '/Impressum',
-        name: 'impressum',
-        component: Impressum,
-      },
-    ],
+      path: '/',
+      name: 'search',
+      component: Search,
+    }, {
+      path: '/Impressum',
+      name: 'impressum',
+      component: Impressum,
+    }, {
+      path: '/Upload',
+      name: 'upload',
+      component: Upload,
+    }, ],
   }
 ];
 
