@@ -22,7 +22,7 @@ $turquoise: rgb(0, 161, 154);
 .content{
   margin: 0 15% 0 15%;
   font-size: 18px;
-  min-height: 700px;
+  min-height: 600px;
 }
 
 .md-body-1, .md-body-2{
@@ -40,5 +40,5 @@ a {
 
 a:hover {
   color: $turquoise;
-  text-decoration: none!;
+  text-decoration: none;
 }

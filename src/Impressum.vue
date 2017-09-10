@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div class="title-container">
+      <h1 class="md-title title">Impressum</h1>
+    </div>
     <b-card id="textImpressum"class="titel">
       <h4>Angaben gemäß § 5 TMG:</h4>
 

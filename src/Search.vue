@@ -21,6 +21,10 @@
 
 
 <md-button id="button" class="md-raised md-warn">Suchen</md-button>
+<br>
+<span id="headline" class="md-headline">Filtern nach:</span>
+<br>
+<md-button id="button" class="md-raised md-warn">Filtern</md-button>
 </div>
 </main>
 </template>
@@ -33,15 +37,16 @@
   }
 }
 
-.b-tooltip{
-  background-color: grey;
-}
-.tooltip > .tooltip-inner {
+
+.tooltip-inner {
     background-color: #73AD21;
     color: #FFFFFF;
     border: 1px solid green;
     padding: 15px;
     font-size: 20px;
+}
+#headline {
+  margin-top: 40px;
 }
 
 </style>
