@@ -37,8 +37,11 @@ export default {
 #login {
 }
 #logo {
-  margin: 0 15% 0 15%;
   display: inline-block;
+  margin: auto;
+  margin-top: 20vh;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -57,7 +60,7 @@ export default {
 
 #footertext {
   margin-left: 80%;
-  margin-top: 10vh;
+  margin-top: 30vh;
 
 }
 </style>

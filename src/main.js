@@ -11,6 +11,7 @@ import Login from './Login.vue';
 import Search from './Search.vue';
 import Navigation from './Navigation.vue';
 import Footer from './Footer.vue';
+import Impressum from './Impressum.vue';
 
 Vue.use(BootstrapVue);
 Vue.use(VueMaterial);
@@ -20,18 +21,31 @@ Vue.component('navigation', Navigation);
 Vue.component('footer-bar', Footer);
 
 const routes = [{
-  path: '/',
-  component: Login,
-}, {
-  path: '/Klaus',
-  name: 'klaus',
-  component: Klaus,
-  children:[{
     path: '/',
-    name: 'search',
-    component: Search,
-  }],
-}];
+    component: Login,
+  },
+  {
+    path: '/Impressum',
+    name: 'impressum',
+    component: Impressum,
+  },
+  {
+    path: '/Klaus',
+    name: 'klaus',
+    component: Klaus,
+    children: [{
+        path: '/',
+        name: 'search',
+        component: Search,
+      },
+      {
+        path: '/Impressum',
+        name: 'impressum',
+        component: Impressum,
+      },
+    ],
+  }
+];
 
 const router = new VueRouter({
   routes,
