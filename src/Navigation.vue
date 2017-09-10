@@ -15,12 +15,15 @@
 
 <style scoped lang="scss">
 .nav {
+  margin-bottom: 10px;
   padding: 0 15% 0 15%;
   text-align: right;
   justify-content: flex-end;
 }
 
 .nav-item {
+  font-weight: bold;
+  font-size: 20px;
   margin: 0;
   a {
     color: black;
@@ -33,5 +36,7 @@ header {
 
 #logo {
   height: 145px;
+  margin-left: 11%;
+  margin-top: 20px;
 }
 </style>
