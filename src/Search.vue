@@ -9,13 +9,7 @@
     <md-input-container id="searchfield" md-theme="gray">
       <label>Suche</label>
       <md-input v-model="autocompleteValue"></md-input>
-        <md-icon id="infoicon">info</md-icon>
-        <b-tooltip target="infoicon" placement="right" title="Online!">
-          <br>
-<p>Suche verfeinern</p>
-<p>- ein "+" direkt vor einem Suchbegriff gibt diesem eine höhere Gewichtung</p>
-<p>- ein "-" direkt vor einem Suchbegriff schließt alle Ergebnisse aus, die diesen Suchbegriff enthalten. </p>
-</b-tooltip>
+        <md-icon id="infoicon" v-b-tooltip.hover.right="'ToolTip!\ntadaaa'">info</md-icon>
     </md-input-container>
 
 
@@ -25,7 +19,7 @@
 </main>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 #searchfield {
   max-width: 625px;
   .md-icon{
@@ -33,15 +27,9 @@
   }
 }
 
-.b-tooltip{
-  background-color: grey;
-}
-.tooltip > .tooltip-inner {
-    background-color: #73AD21;
-    color: #FFFFFF;
-    border: 1px solid green;
-    padding: 15px;
-    font-size: 20px;
+.tooltip-inner {
+    background-color: #F6F6F6;
+    color: black;
 }
 
 </style>
