@@ -21,6 +21,12 @@ Vue.use(VueRouter);
 Vue.component('navigation', Navigation);
 Vue.component('footer-bar', Footer);
 
+/*Vue.material.registerTheme('default', {
+  primary: black,
+  accent: yellow,
+  warn: red,
+})*/
+
 const routes = [{
   path: '/',
   component: Login,
