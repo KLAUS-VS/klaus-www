@@ -42,7 +42,7 @@
     margin: 0 20px 0 20px;
   }
   a:hover{
-      text-decoration: none!;
+      text-decoration: none;
   }
 }
 
