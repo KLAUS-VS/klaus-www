@@ -1,6 +1,6 @@
 <template>
   <div id="footer">
-    <label>2017 VS Der HDM Stuttgart | <a>Impressum</a></label>
+    <label>2017 VS Der HDM Stuttgart | <router-link :to="{ name: 'impressum' }">Impressum</router-link></label>
   </div>
 </template>
 
@@ -12,11 +12,19 @@
     justify-content: flex-end;
     padding: 0 15% 0 15%;
     color: white;
-    background-color: grey;
+    background-color: #3d3d3c;
     height: 100px;
+
 
     label{
       align-self: center;
+      color: white;
     }
+    a{
+      color: white;
+
+    }
+
   }
+  
 </style>

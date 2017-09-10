@@ -12,23 +12,23 @@
     Bitte schau zuerst nach, ob die Klausur, die Du hochladen möchtest, nicht vielleicht schon vorhanden ist!
   </p>
   <form>
-    <md-input-container>
+    <md-input-container md-theme="gray">
     <label>Fach</label>
     <md-input v-model="initialValue"></md-input>
     </md-input-container>
-    <md-input-container>
+    <md-input-container md-theme="gray">
     <label>Dozent</label>
     <md-input v-model="initialValue"></md-input>
     </md-input-container>
-    <md-input-container>
+    <md-input-container md-theme="gray">
     <label>Semester</label>
     <md-input v-model="initialValue"></md-input>
     </md-input-container>
 
-    <md-checkbox id="solutions" name="solutions" v-model="checkbox">inkl. Lösungen</md-checkbox>
-    <md-checkbox id="original" name="original" v-model="checkbox">inkl. Originalfragen</md-checkbox>
+    <md-checkbox class="md-warn" id="solutions" name="solutions" v-model="checkbox">inkl. Lösungen</md-checkbox>
+    <md-checkbox class="md-warn" id="original" name="original" v-model="checkbox">inkl. Originalfragen</md-checkbox>
 
-    <md-input-container>
+    <md-input-container md-theme="gray">
     <label>Kommentar</label>
     <md-input v-model="initialValue"></md-input>
     </md-input-container>
