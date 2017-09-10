@@ -1,7 +1,6 @@
 <template>
 <main id="search">
   <div class="title-container">
-
     <h1 class="md-title title">Nach Klausuren suchen</h1>
   </div>
   <div id="textsearch"class="md-body-1 content">

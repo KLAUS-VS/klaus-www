@@ -25,13 +25,17 @@ $turquoise: rgb(0, 161, 154);
   min-height: 700px;
 }
 
+.md-body-1, .md-body-2{
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
 #button {
   background-color: #F39200;
 }
 
 a {
-  color: black;
-
+    color: black;
   }
 
 a:hover {
