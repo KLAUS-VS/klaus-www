@@ -2,11 +2,11 @@
 <div id="login">
   <img id="logo" src="./assets/klaus_logo.png">
   <div id="input">
-  <md-input-container>
+  <md-input-container md-theme="gray">
     <label>Benutzername</label>
     <md-input placeholder=""></md-input>
   </md-input-container>
-    <md-input-container>
+    <md-input-container md-theme="gray">
       <label>Passwort</label>
       <md-input type="password"></md-input>
     </md-input-container>
